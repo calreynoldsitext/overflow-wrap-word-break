@@ -1,4 +1,5 @@
-public static void main(String args[]) throws IOException {
+public void convertHTMLtoPDF() throws IOException {
+    FontProvider fontProvider = new FontProvider();
     FontProgram fontProgram = FontProgramFactory.createFont("NotoSansJP-Medium.otf");
     fontProvider.addFont(fontProgram);
     ConverterProperties properties = new ConverterProperties();
