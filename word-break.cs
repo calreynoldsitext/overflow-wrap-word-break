@@ -1,4 +1,4 @@
-public virtual void ConvertHTMLtoPDF() throws IOException {
+public virtual void ConvertHTMLtoPDF() {
     FontProvider fontProvider = new FontProvider();
     FontProgram fontProgram = FontProgramFactory.CreateFont("NotoSansJP-Medium.otf");
     fontProvider.AddFont(fontProgram);
